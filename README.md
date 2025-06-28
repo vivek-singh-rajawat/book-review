@@ -39,7 +39,7 @@ A full-featured NestJS backend API for managing books and reviews using PostgreS
 
 ```bash
 # Clone project
-https://github.com/your-user/book-review-api.git
+https://github.com/vivek-singh-rajawat/book-review.git
 cd book-review-api
 
 # Install dependencies
@@ -55,14 +55,9 @@ cp .env.example .env
 Update `.env` with your values:
 
 ```env
-PORT=3000
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-DATABASE_USERNAME=postgres
-DATABASE_PASSWORD=postgres
-DATABASE_NAME=book_review
-REDIS_HOST=localhost
-REDIS_PORT=6379
+DATABASE_URL= // Neon DB url
+REDIS_HOST=
+REDIS_PORT=
 ```
 
 ---
