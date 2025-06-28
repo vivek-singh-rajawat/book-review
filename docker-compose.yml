@@ -1,0 +1,16 @@
+services:
+  
+  redis:
+    image: redis:7
+    container_name: book_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+
+networks:
+  backend:
+    driver: bridge
